@@ -1,0 +1,1 @@
+This website was made for less than 3 hours and the assignment was meant to copy the website dunkin.nl and make ir as close to the original.

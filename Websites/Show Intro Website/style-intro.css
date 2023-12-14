@@ -1,0 +1,718 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+
+    z-index: 1;
+}
+
+html {
+    width: 100%;
+}
+
+.parent-dots-intro {
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* moving first dot */
+.dot-mooving {
+    position: absolute;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+
+    left: -20%;
+
+
+    animation: moving-dot 4s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+}
+
+@keyframes moving-dot {
+    0% {
+        left: -20%;
+    }
+
+    /* 12.5% {left: 11%;}
+    25% {left: 22%;}
+    37.5% {left: 33%;}
+    50% {left: 44%;}
+    62.5% {left: 55%;} */
+    75% {
+        left: 66%;
+        scale: 1;
+    }
+
+    100% {
+        left: 66%;
+        scale: 2;
+    }
+}
+
+
+/* first dot */
+.dot-static-1 {
+    position: absolute;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+
+    animation: dot1 0.90s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+
+}
+
+@keyframes dot1 {
+    0% {
+        left: 0%;
+        opacity: 0;
+    }
+
+    75% {
+        left: 0%;
+        opacity: 0;
+    }
+
+    99% {
+        left: 1%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 1%;
+        opacity: 1;
+        z-index: 0;
+    }
+}
+
+/* second dot */
+.dot-static-2 {
+    position: absolute;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+
+    animation: dot2 0.90s 0.4s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+
+}
+
+@keyframes dot2 {
+    0% {
+        left: 10%;
+        opacity: 0;
+    }
+
+    75% {
+        left: 10%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 15%;
+        opacity: 1;
+    }
+}
+
+/* third dot */
+.dot-static-3 {
+    position: absolute;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+
+    animation: dot3 0.90s 0.9s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+
+}
+
+@keyframes dot3 {
+    0% {
+        left: 25%;
+        opacity: 0;
+    }
+
+    75% {
+        left: 25%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 30%;
+        opacity: 1;
+    }
+}
+
+/* fourth dot */
+.dot-static-4 {
+    position: absolute;
+    margin-top: 20%;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+
+    animation: dot4 0.90s 1.5s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+
+}
+
+@keyframes dot4 {
+    0% {
+        left: 40%;
+        opacity: 0;
+    }
+
+    75% {
+        left: 40%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 45%;
+        opacity: 1;
+    }
+}
+
+
+.parent-black-squares {
+    width: 100%;
+    z-index: 1;
+}
+
+/* black squares */
+/* first square */
+.square-static-1 {
+    position: absolute;
+    margin-top: 20%;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    /*   */
+
+    animation: square1 0.5s 1.5s forwards;
+    animation-timing-function: linear;
+
+}
+
+@keyframes square1 {
+    0% {
+        left: 0%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+}
+
+/* second square */
+.square-static-2 {
+    position: absolute;
+    margin-top: 20%;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    /*   */
+
+    animation: square2 0.5s 2s forwards;
+    animation-timing-function: linear;
+
+}
+
+@keyframes square2 {
+    0% {
+        left: 15%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 15%;
+        opacity: 1;
+    }
+}
+
+/* third square */
+.square-static-3 {
+    position: absolute;
+    margin-top: 20%;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    /*   */
+
+    animation: square3 0.5s 2.5s forwards;
+    animation-timing-function: linear;
+
+}
+
+@keyframes square3 {
+    0% {
+        left: 30%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 30%;
+        opacity: 1;
+    }
+}
+
+
+/* fourth square */
+.square-static-4 {
+    position: absolute;
+    margin-top: 20%;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    /*   */
+
+    animation: square4 0.5s 3s forwards;
+    animation-timing-function: linear;
+
+}
+
+@keyframes square4 {
+    0% {
+        left: 45%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 45%;
+        opacity: 1;
+    }
+}
+
+
+.gun-barrel img {
+    position: absolute;
+    width: 70%;
+    opacity: 0;
+
+    left: 30%;
+    top: 6%;
+
+
+    animation: barrel 1s 3.5s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes barrel {
+    0% {
+
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+
+        opacity: 0;
+    }
+}
+
+
+.gun-barrel-moove1 img {
+    position: absolute;
+    width: 70%;
+    opacity: 0;
+
+    left: 30%;
+    top: 6%;
+
+
+    animation: barrel-moove1 2.2s 4.5s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes barrel-moove1 {
+    0% {
+
+        left: 30%;
+        opacity: 0;
+    }
+
+    1% {
+        left: 30%;
+        opacity: 1;
+    }
+
+    10% {
+        left: 30%;
+        opacity: 1;
+    }
+
+    100% {
+
+        left: 15%;
+        opacity: 1;
+    }
+}
+
+.person-profile img {
+    position: absolute;
+    width: 4%;
+    opacity: 0;
+
+    left: 30%;
+    top: 33%;
+
+
+    animation: profile-moove1 3s 4.5s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes profile-moove1 {
+    0% {
+
+        left: 65%;
+        opacity: 0;
+    }
+
+    8% {
+        left: 65%;
+        opacity: 1;
+    }
+
+    10% {
+        left: 65%;
+        opacity: 1;
+    }
+
+    80% {
+
+        left: 51%;
+        opacity: 1;
+    }
+
+    99% {
+        left: 51%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 51%;
+        opacity: 0;
+    }
+}
+
+.person-boom img {
+    position: absolute;
+    width: 8%;
+    opacity: 0;
+    /*dont forget to chnage you idiot*/
+    left: 48%;
+    top: 33%;
+
+    animation: boom 5s 7s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes boom {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.black {
+    position: absolute;
+    /* margin-top: 20%; */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    /*   */
+
+    animation: black 0.1s 12s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes black {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.gun-barrel-reset img {
+    position: absolute;
+    width: 70%;
+    opacity: 0;
+
+    left: 15%;
+    top: 6%;
+
+
+    animation: barrel-reset 4s 12s forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes barrel-reset {
+    0% {
+        opacity: 0;
+
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    10% {
+        opacity: 1;
+        left: 14%;
+        top: 6%;
+
+    }
+
+    20% {
+        opacity: 1;
+        left: 16%;
+        top: 6%;
+
+    }
+
+    30% {
+        opacity: 1;
+        left: 14%;
+        top: 6%;
+
+    }
+
+    40% {
+        opacity: 1;
+        left: 16%;
+        top: 7%;
+
+    }
+
+    50% {
+        opacity: 1;
+        left: 13%;
+        top: 9%;
+
+    }
+
+    60% {
+        opacity: 1;
+        left: 18%;
+        top: 12%;
+
+    }
+
+    70% {
+        opacity: 1;
+        left: 14%;
+        top: 14%;
+
+    }
+
+    100% {
+        opacity: 1;
+        opacity: 0;
+        left: 20%;
+        top: 18%;
+
+    }
+
+}
+
+.blood {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 80% 73%, 66% 79%, 55% 91%, 39% 71%, 29% 95%, 15% 75%, 0 94%);
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    height: 1200px;
+    opacity: 0.5;
+    top: -155%;
+    animation: blood-drop 8s 7.5s forwards;
+    animation-timing-function: linear;
+}
+
+
+@keyframes blood-drop {
+    0% {
+        top: -155%;
+    }
+
+    40% {
+        opacity: 0.5;
+        top: -10%
+    }
+
+    95% {
+        opacity: 0.5;
+        top: -10%
+    }
+
+    100% {
+        opacity: 0;
+        top: -10%
+    }
+}
+
+.dot-final1 {
+
+    position: absolute;
+    margin-top: 20%;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 50%;
+
+    opacity: 0;
+    /*dont forget back to 0*/
+
+    animation: final-dot1 2s 15.5s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+
+
+}
+
+@keyframes final-dot1 {
+    0% {
+        opacity: 0;
+        top: 15%;
+        left: 55%;
+    }
+
+    10% {
+        opacity: 1;
+        top: 15%;
+        left: 55%;
+    }
+
+    99% {
+        opacity: 1;
+        top: 20%;
+        left: 60%;
+    }
+
+    100% {
+        opacity: 0;
+        top: 20%;
+        left: 60%;
+    }
+}
+
+.dot-final2 {
+
+    position: absolute;
+    margin-top: 20%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+
+    opacity: 0;
+    /*dont forget back to 0*/
+
+    animation: final-dot2 1s 17.5s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+}
+
+@keyframes final-dot2 {
+    0% {
+        opacity: 0;
+        top: 29%;
+        left: 65%;
+    }
+
+    99% {
+        opacity: 1;
+        top: 29%;
+        left: 65%;
+    }
+
+    100% {
+        opacity: 0;
+        top: 29%;
+        left: 65%;
+    }
+}
+
+.dot-final3 {
+
+    position: absolute;
+    margin-top: 20%;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+
+    opacity: 0;
+    /*dont forget back to 0*/
+
+    animation: final-dot3 1s 18.5s forwards;
+    /*4s 2s*/
+    animation-timing-function: linear;
+}
+
+@keyframes final-dot3 {
+    0% {
+        opacity: 0;
+        top: 40%;
+        left: 70%;
+    }
+
+    1% {
+        opacity: 1;
+        top: 40%;
+        left: 70%;
+    }
+
+    99% {
+        opacity: 1;
+        top: 40%;
+        left: 70%;
+    }
+
+    100% {
+        opacity: 0;
+        top: 40%;
+        left: 70%;
+    }
+}

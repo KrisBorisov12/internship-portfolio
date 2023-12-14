@@ -1,0 +1,3 @@
+Fresh'd up is an Instagram shop owned by Martin Topalov. The idea behind the e-shop is that Mr. Topalov thrifts footwear for cheap, restores them and
+resells it for profit. I helped him with developing an e-commerce website prototype in Figma. The prototype is simple and served as a quick starting point.
+Currently an actual website for e-commerce is in development and it is based on the main pages of the prototype i provided.

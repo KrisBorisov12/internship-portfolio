@@ -1,0 +1,1 @@
+This is a PWA website that uses the Rick And Morty api and it randomly generates player cards.

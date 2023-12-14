@@ -1,0 +1,523 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.headercontainer{
+    background-color: #557A95;
+    min-height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.39));
+
+}
+a{
+    text-decoration: none;
+    color: #557A95 ;
+}
+
+header{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    height: auto;
+    width: 1rem;
+}
+.navbutton{
+    padding: 15px 30px;
+    background-color: white;
+    border: solid #557A95 3px;
+    margin-left: 1rem;
+    border-radius: 3px;
+}
+.navbutton:hover{
+    background-color: #557A95;
+    border:solid white;
+    transition: 300ms;
+    color: white;
+}
+nav{
+    margin-top: 1rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex: 9;
+}
+
+.account{
+    margin-left: 1rem;
+}
+.container{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 60rem;
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.searchbar{
+    min-height: 10rem;
+    width: 60%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    margin-top: 15rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+    
+}
+.cards{
+    width: 75%;
+    min-height: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 27%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    padding: 40px 20px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+.card p:last-of-type{
+    margin-top: 10px;
+        font-size: 1rem;
+        text-align: right;
+}
+
+footer{
+    background-color: #557A95;
+    min-height: 5rem;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.39));
+}
+.login{
+    margin-top: 7rem;
+    min-height: 30rem;
+    width: 30%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    color: #557A95;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+.aboutus{
+    margin-top: 3rem;
+    min-height: 45rem;
+    width: 70%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+}
+.homefilters{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.searchbutton{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.button{
+    background-color: #557A95;
+    text-align: center;
+    border: solid #557A95 3px;
+    border-radius: 3px;
+    padding: 13px 35px;
+    color: white;
+}
+.button:hover{
+    background-color: white;
+    color: #557A95;
+    transition: 300ms;
+}
+.resultbox{
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.houses{
+    min-height: 60rem;
+    background-color: #557A95;
+    width: 63%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+.filters{
+    min-height: 60rem;
+    background-color: #557A95;
+    width: 35%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+.house{
+    min-height: 25rem;
+    width: 95%;
+    background-color: #6893b1;
+    margin: 30px 20px;
+    display: flex;
+    box-shadow: 0px 1px 0.5px rgba(0, 0, 0, 0.233);
+}
+.housepage{
+    margin-top: 3rem;
+    width: 80%;
+    min-height: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #557A95 ;
+}
+
+input{
+    padding: 11px 20px;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+}
+
+.price{
+
+    font-size: 40px;
+    position: relative;
+    left: 750px;
+    top: 50px;
+
+
+}
+
+.housephoto{
+position: absolute;
+top: 200px;
+left: 200px;
+}
+
+.housedescription{
+
+    position: relative;
+    left: 650px;
+    top: 100px;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0px;
+
+}
+
+.purchase{
+    position: absolute;
+    right: 200px;
+    top: 650px;
+}
+
+.house1interior1{
+    position: relative;
+    top: 200px;
+    left: 90px;
+}
+
+.house1interior2{
+    position: relative;
+    top: 85px;
+    left: 250px;
+}
+
+.house1interior3{
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+}
+
+hr.divider{
+    position: relative;
+    top: 10px;
+}
+
+.lowerdescription{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    margin: 10px;
+    font-size: 25px4;
+}
+.herobox1{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.herobox1 p{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+.herobox2{
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.teamimg{
+    width: auto;
+    height: 300px;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.login h1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.noaccount{
+    padding-bottom: 5rem;
+    text-align: center;
+}
+.login input{
+    width: 100%;
+}
+.inputwrapper {
+    margin-bottom: 30px;
+}
+.forgotpassword{
+    text-align: right;
+    font-size: 0.8rem;
+    color:#557A95;
+}
+.names{
+    display: flex;
+}
+.checks{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+.box1{
+    margin-right: 5px;
+}
+.box2{
+    margin-left: 5px ;
+
+}
+
+.contactushere{
+    margin-top: 50px;
+}
+
+.contactushere p{
+    font-size: 1.5rem;
+    margin: 25px 20px ;
+}
+
+.house-herobox-img{
+    height: 15rem;
+    width: auto;
+    margin: 30px;
+}
+.house-herobox-text{
+    color: white;
+    padding: 20px;
+}
+.house-herobox-text p{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+.house-herobox-text h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.search-filters-small{
+    margin: 40px 20px 20px;
+    width: 40%;
+}
+.search-filters-big{
+    margin: 40px 20px 20px;
+    width: 70%;
+}
+.filters h1{
+    color: white;
+    margin-top: 20px;
+}
+.checkbox{
+    margin-left: 20px;
+}
+.label-text{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+
+.accommodation-container{
+    margin-top: 3rem;
+    min-height: 45rem;
+    width: 80%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.233);
+}
+.accommodation-container h1{
+    margin: 40px 0 20px;
+}
+.accommodation-herobox1{
+    height: 400px;
+    width: auto;
+    margin-top: 20px;
+}
+.accommodation-herobox2{
+    height: 400px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.accommodation-img{
+    height: 400px;
+    width: auto;
+}
+
+.accommodation-herobox2 p{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.accommodation-description{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+hr{
+    border: 0.5px dashed #557A95;
+    color: #557A95;
+}
+.with{
+    width: 100%;
+}
+.location-text{
+    margin-bottom: 30px;
+    text-align: left;
+}
+.accommodation-location{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.profile-picture-contact{
+    width: 200px;
+    height: auto;
+}
+.contact-profile{
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.contacttext{
+    flex: 2;
+    margin: 10px;
+    text-align: center;
+}
+.contacttext h1{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.contacttext h2{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.contactimg{
+    flex: 1;
+}
+
+.contact-profile .navbutton{
+    padding: 30px 60px;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+.contactbutton{
+    margin-right: 20px;
+    margin-top: 150px;
+}
+
+.login a{
+    color: darkviolet;
+}
+
+.contact-owner-con{
+    margin-top: 3rem;
+    min-height: 25rem;
+    width: 40%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 30px;
+}
+
+.contactownertext{
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-owner-con input{
+    width: 100%;
+}
+
+.profilebox{
+    margin-top: 3rem;
+    min-height: 45rem;
+    width: 70%;
+    background-color: white;
+    border: #557A95 solid 10px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex-start;
+    padding: 20px;
+}
+
+#profilepicture{
+    border-radius: 50%;
+}

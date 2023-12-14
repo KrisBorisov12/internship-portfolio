@@ -1,0 +1,15 @@
+https://i477572.hera.fhict.nl/firstpwa/index.html - First progressive web application
+
+https://i477572.hera.fhict.nl/flappyducky/index.html - a ripoff of flappy duck made by unity
+
+https://i477572.hera.fhict.nl/newerportfolio/index.html - semester 2 portfolio 
+
+https://i477572.hera.fhict.nl/passionproject/index.html - -semester 3 passion project
+
+https://i477572.hera.fhict.nl/responsivepwa/index.html - PWA with pokemon api (mobile version only)
+
+https://i477572.hera.fhict.nl/testformd/login-page.html - the application for LiveWall McDonald's project (mobile version only)
+
+https://i477572.hera.fhict.nl/tictoctae/index.htm - tictactoe game ripoff that i made using js
+
+
